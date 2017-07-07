@@ -1,0 +1,21 @@
+.Questions {
+	padding:4px;
+	background-color: #F0F0F0;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.Questions table {
+	width:100%;
+	background-color:#367284;
+}
+.Questions table td {
+	padding: 2px;
+	background-color:#9f7284;
+	text-align:left;
+}
+.Questions table tr td:nth-child(1){
+	background-color:#9f72f4;
+	width:15%;
+}
