@@ -19,3 +19,6 @@
 	background-color:#9f72f4;
 	width:15%;
 }
+.Questions input[type='radio'] {
+	background-color:#6f6180;
+}
