@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Highlight from 'react-highlight'
 import './Questions.css'
 import Examen from './Examen_Javascript'
+import Radio from './Radio'
 
 class Questions extends Component {
   componentDidMount(){
@@ -23,10 +24,7 @@ class Questions extends Component {
 	    <tbody>
 	      <tr>
 		<td>
-                  <input type="radio" 
-			 id="test1" 
-			 name="radio-group" />
-		  <label for="test1">Apple</label>
+		  <Radio />
 		</td>
 		<td>
 		  <span>{a}</span>
