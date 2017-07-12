@@ -23,9 +23,10 @@ class Questions extends Component {
 	    <tbody>
 	      <tr>
 		<td>
-          <input id='radio-1' type="radio" name='r-group-1' checked='checked' />
-          <label for="radio-1">Day</label>
-          
+                  <input type="radio" 
+			 id="test1" 
+			 name="radio-group" />
+		  <label for="test1">Apple</label>
 		</td>
 		<td>
 		  <span>{a}</span>
@@ -33,8 +34,10 @@ class Questions extends Component {
 	      </tr>
 	      <tr>
 		<td>
-          <input id='radio-2' type="radio" name='r-group-1' />
-          <label for="radio-2">Night</label>
+		  <input type="radio" 
+			 id="test2" 
+                         name="radio-group"/>
+		  <label for="test2">Peach</label>
 		</td>
 		<td>
 		  <span>{b}</span>
@@ -42,24 +45,24 @@ class Questions extends Component {
 	      </tr>
 	      <tr>
 		<td>
-		  <label>
-		    <input type='radio' value='c'/>
-		    <span>c.</span>
-		  </label>
+                  <input type="radio" 
+			 id="test1" 
+			 name="radio-group" />
+		  <label for="test1">Apple</label>
 		</td>
 		<td>
-		  <span>{c}</span>
+		  <span>{a}</span>
 		</td>
 	      </tr>
 	      <tr>
 		<td>
-		  <label>
-		    <input type='radio' value='d'/>
-		    <span>d.</span>
-		  </label>
+		  <input type="radio" 
+			 id="test2" 
+                         name="radio-group"/>
+		  <label for="test2">Peach</label>
 		</td>
 		<td>
-		  <span>{d}</span>
+		  <span>{b}</span>
 		</td>
 	      </tr>
 	    </tbody>
