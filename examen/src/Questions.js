@@ -3,7 +3,7 @@ import Highlight from 'react-highlight'
 import './Questions.css'
 import Examen from './Examen_Javascript'
 import Radio from './Radio'
-
+import Next from './Next'
 class Questions extends Component {
   componentDidMount(){
     console.log(Examen[0].pregunta)
@@ -32,10 +32,7 @@ class Questions extends Component {
 	      </tr>
 	      <tr>
 		<td>
-		  <input type="radio" 
-			 id="test2" 
-                         name="radio-group"/>
-		  <label for="test2">Peach</label>
+		  <Radio />
 		</td>
 		<td>
 		  <span>{b}</span>
@@ -43,10 +40,7 @@ class Questions extends Component {
 	      </tr>
 	      <tr>
 		<td>
-                  <input type="radio" 
-			 id="test1" 
-			 name="radio-group" />
-		  <label for="test1">Apple</label>
+		  <Radio />
 		</td>
 		<td>
 		  <span>{a}</span>
@@ -54,10 +48,7 @@ class Questions extends Component {
 	      </tr>
 	      <tr>
 		<td>
-		  <input type="radio" 
-			 id="test2" 
-                         name="radio-group"/>
-		  <label for="test2">Peach</label>
+		  <Radio />
 		</td>
 		<td>
 		  <span>{b}</span>
@@ -66,7 +57,7 @@ class Questions extends Component {
 	    </tbody>
 	  </table>
 	  <br />
-	  <button> NEXT </button>
+	<Next />
       </div>
   )
   }

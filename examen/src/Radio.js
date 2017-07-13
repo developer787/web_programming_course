@@ -2,12 +2,15 @@ import React, {Component} from 'react'
 import './Radio.css'
 class Radio extends Component {
   render(){
+    const label = 'a)'
     return (
-      <div>
+      <div className='radio_group'>
+      <label>
       <input type="radio" 
-	id="radio_standard" 
-	name="radio-group"/>
-      <label for="radio_standard">Ro</label>
+	className="radio_standard" 
+	name="radio_group"/>
+        <div className="check"></div>
+      </label>
       </div>
     )
   }
