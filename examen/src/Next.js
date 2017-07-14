@@ -6,12 +6,13 @@ class Next extends React.Component {
     this.handleClick = this.handleClick.bind(this)
   }
   handleClick = () => {
-    alert('this is:', this.selection)
+    alert('this is: ' +  this.selection)
   }
 
   render() {
+    const disabled = false
     return (
-      <button onClick={this.handleClick}>
+      <button onClick={this.handleClick} disabled={disabled}>
       Next
       </button>
     )

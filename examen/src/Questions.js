@@ -24,7 +24,7 @@ class Questions extends Component {
 	    <tbody>
 	      <tr>
 		<td>
-		  <Radio />
+		  <Radio value={'a'}/>
 		</td>
 		<td>
 		  <span>{a}</span>
