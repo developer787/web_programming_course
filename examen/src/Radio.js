@@ -11,8 +11,8 @@ class Radio extends Component {
   }
   check(e){
     //e.preventDefault()
-    this.setState({check:true})
-    alert(this.state.check)
+    this.setState({check:!this.state.check})
+    console.log(this.state.check)
   }
   render(){
     return (
@@ -22,7 +22,7 @@ class Radio extends Component {
 	    checked={this.state.check}
 	    className="radio_standard" 
 	    name="radio_group"/>
-	  <div onClick={this.check}className="check"></div>
+	  <div onClick={this.check} className="check"></div>
 	</label>
       </div>
     )

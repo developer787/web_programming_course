@@ -2,10 +2,11 @@ import React from 'react'
 class Next extends React.Component {
   constructor(props){
     super(props)
+    this.addQuiz = props.addQuiz
     this.handleClick = this.handleClick.bind(this)
   }
   handleClick = () => {
-    alert('this is: ' +  this.selection)
+    this.addQuiz()
   }
 
   render() {
